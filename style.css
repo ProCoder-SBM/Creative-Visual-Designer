@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0077b6;
+    text-align: center;    
+    margin: 18px;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.hire-btn{
+    color: #fff;
+    background: #0077b6;
+    margin-right: 90%;
+    padding: 6px 30px;
+    border: 1px solid #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.hire-btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+#main {
+    position: relative;
+    top: 20px;
+    left: 120px;
+}
+
+#main h1 {
+    font-size: 170px;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+}
+
+#main h1 i{
+    color: white;
+}
+
+@keyframes changeFont {
+    0% { font-family: 'Arial', sans-serif; }
+    25% { font-family: 'Verdana', sans-serif; }
+    50% { font-family: 'Georgia', serif; }
+    75% { font-family: 'Times New Roman', serif; }
+    100% { font-family: 'Courier New', monospace; }
+  }
+  
+#main h1 i.changing-font {
+    animation: changeFont 4s infinite;
+  }
